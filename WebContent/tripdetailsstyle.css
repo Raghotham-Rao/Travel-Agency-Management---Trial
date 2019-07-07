@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+@font-face{
+	font-family: Headings;
+	/*src: url(A-day-without-sun-trial.otf);*/
+	src: url(RalewayThin.otf);
+}
+
+@font-face{
+	font-family: Normal-Text;
+	/*src: url(A-day-without-sun-trial.otf);*/
+	src: url(Junction-light.otf);
+}
+
+#header{
+	font-size: 60px;
+}
+
+#details{
+	width: 65%;
+	margin-top: 30px;
+	font-family: "Normal-Text";
+	font-size: 20px;
+	display: inline-block;
+	color: rgb(255,255,255,0.8);
+	background-color: rgb(0,0,0,0.2);
+	float: left;
+}
+
+#details p,ul{
+	margin-left: 50px;
+}
+
+#details ul li{
+	margin-top: 20px;
+}
+
+#details p{
+	font-family: "Headings";
+	font-size: 40px;
+}
+
+#details #desc{
+	margin-top: 50px;
+	font-family: "Normal-Text";
+	font-size: 20px;
+}
+
+#amount {
+	background-color: rgb(0,0,0,0.2);
+	width: 30%;
+	margin-top: 30px;
+	margin-right: 40px;
+	height: 300px;
+	font-family: "Normal-Text";
+	font-size: 20px;
+	color: rgb(255,255,255,0.8);
+	float: right;
+	text-align: center;
+}
+
+#amount p{
+	font-family: "Headings";
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+#amount input{
+	background-color:  rgb(0,0,0,0);
+	border: none;
+	font-size: 30px;
+	font-family: "Headings";
+	color: rgb(255,255,255,0.4);
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#amount input:hover{
+	cursor: pointer;
+	color: #ffffff;
+}

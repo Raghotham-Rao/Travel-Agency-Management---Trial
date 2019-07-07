@@ -1,0 +1,80 @@
+@font-face{
+	font-family: Normal-Text;
+	src: url(Junction-light.otf);
+}
+@font-face{
+	font-family: Headings;
+	src: url(RalewayThin.otf);
+}
+
+body{
+	font-family: "Normal-Text","Tahoma";
+	background-color: rgb(0, 41, 102);
+	font-size: 25px;
+}
+input{
+	font-family: "Normal-Text","Tahoma";
+	background: none;
+	border-color: rgb(1,1,1,0);
+	margin:5px;
+	margin-bottom: 20px;
+	height:30px;
+	font-size: 25px;
+	color: #ffffff;
+	width: 180px;
+}
+input[type="email"]{
+	width:350px;
+}
+input[type="number"]{
+	width:60px;
+}
+#phno{
+	width:250px;
+}
+textarea{
+	font-family: "Tahoma";
+	background: none;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	height: 100px;
+	line-height: 25px;
+}
+#signupform > h3{
+	/*margin-left:15%;*/
+	font-family: "Headings";
+	margin-left: 100px;
+}
+#signupform{
+	background-color:rgb(0,0,0,0.5);
+	color: rgb(255,255,255,0.9);
+	width: 50%;
+	height:600px;
+	margin-left: 25%;
+	margin-top: 1.7%;
+	padding: 10px;
+	padding-left: 50px;
+	border-radius: 5px;
+}
+input[type="submit"]{
+	width:150px;
+	height: 50px;
+	padding:10px;
+	color: rgb(255,255,255,0.6);
+	border:none;
+	margin-left: 280px;
+}
+input[type="submit"]:hover{
+	color: #ffffff;
+	cursor: pointer;
+	border-bottom: 2px;
+	border-bottom-color: #ffffff;
+	border-bottom-style: solid;
+}
+.pass{
+	width: 250px;
+}
+.names{
+	width:300px;
+}

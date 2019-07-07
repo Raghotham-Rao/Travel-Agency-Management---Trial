@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+@font-face{
+	font-family: Headings;
+	/*src: url(A-day-without-sun-trial.otf);*/
+	src: url(RalewayThin.otf);
+}
+
+@font-face{
+	font-family: Normal-Text;
+	/*src: url(A-day-without-sun-trial.otf);*/
+	src: url(Junction-light.otf);
+}
+
+body{
+	background-color: rgb(0, 60, 179);
+	font-family: "Normal-Text";
+	color: rgb(255,255,255,0.8);
+}
+
+#header{
+	font-family: "Headings";
+	text-align: center;	
+	font-size: 30px;
+}
+
+#planner{
+	width: 48%;
+	background-color: rgb(0,0,0,0.2);
+	padding: 20px;
+	font-size: 20px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#planner input, select{
+	margin: 10px;
+	background-color: rgb(0,0,0,0);
+	border: none;
+	font-size: 20px;
+	color: rgb(255,255,255,0.8);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#planner input[type="submit"]{
+	padding: 10px;
+	width: 100px;
+	margin-left: 35%;
+	margin-top: 20px;
+}
+
+#planner input[type="submit"]:hover{
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 0px;
+}
+
+#planner select:focus{
+	background-color: inherit;
+	color: #000000;
+}
+
+#planner input:focus{
+	color: #ffffff;
+}
+
+#details{
+	width:47%;
+	height: 500px;
+	float:right;
+	background-color: rgb(0,0,0,0.2);
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+#details p{
+	padding: 20px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#details input[type="submit"]{
+	padding: 10px;
+	width: 100px;
+	margin-left: 35%;
+	background-color: rgb(0,0,0,0);
+	border: none;
+	font-size: 20px;
+	margin-top: -20px;
+	color: rgb(255,255,255,0.8);
+}
+
+#details input[type="submit"]:hover{
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #ffffff;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 0px;
+}

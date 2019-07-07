@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+@font-face{
+	font-family: Normal-Text;
+	src: url(Junction-light.otf);
+}
+@font-face{
+	font-family: Headings;
+	src: url(RalewayThin.otf);
+}
+
+body{
+	font-family: "Headings","Tahoma";
+	background-color: rgb(0, 41, 102);
+	font-size: 25px;
+}
+
+#signupform > h3{
+	font-family: "Headings";
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+#signupform > h1{
+	font-size: 60px;
+}
+
+#signupform{
+	background-color:rgb(0,0,0,0.5);
+	color: rgb(255,255,255,0.9);
+	width: 50%;
+	height:600px;
+	margin-left: 25%;
+	margin-top: 1.7%;
+	padding: 10px;
+	padding-left: 50px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#signupform a {
+	text-decoration: none;
+	color: rgb(255,255,255,0.6);
+	margin-top: 150px;
+	border: none; 
+	padding: 10px;
+}
+
+#signupform a:hover {
+	color: #ffffff;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
